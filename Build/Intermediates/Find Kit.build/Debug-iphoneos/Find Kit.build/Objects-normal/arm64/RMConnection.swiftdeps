@@ -1,0 +1,259 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RMConnectionDelegate"
+- "RMConnection"
+provides-nominal:
+- "P8Find_Kit20RMConnectionDelegate"
+- "C8Find_Kit12RMConnection"
+provides-member:
+- ["P8Find_Kit20RMConnectionDelegate", ""]
+- ["C8Find_Kit12RMConnection", ""]
+provides-dynamic-lookup:
+- "getDataFin"
+- "getData"
+- "delegate"
+depends-top-level:
+- !private "StringLiteralType"
+- !private "NSURLConnection"
+- !private ">"
+- "NSObject"
+- !private "NSMutableURLRequest"
+- "Int"
+- "RMConnectionDelegate"
+- !private "NSError"
+- "RMConnection"
+- !private "NSURLResponse"
+- !private "dispatch_get_main_queue"
+- !private "dispatch_async"
+- !private "String"
+- !private "NSOperationQueue"
+- "NSData"
+- !private "NSBundle"
+- !private "NSURL"
+depends-member:
+- !private ["Ps9AnyObject", "NSBundle"]
+- !private ["Ps9AnyObject", "NSMutableURLRequest"]
+- !private ["Ps9AnyObject", "NSOperationQueue"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "NSURLConnection"]
+- ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "dispatch_async"]
+- !private ["Ps9AnyObject", "dispatch_get_main_queue"]
+- ["Ps9AnyObject", "getData"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "length"]
+- !private ["Ps9AnyObject", "mainBundle"]
+- !private ["Ps9AnyObject", "mainQueue"]
+- !private ["Ps9AnyObject", "pathForResource"]
+- !private ["Ps9AnyObject", "sendAsynchronousRequest"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "NSBundle"]
+- !private ["Ps11CVarArgType", "NSMutableURLRequest"]
+- !private ["Ps11CVarArgType", "NSOperationQueue"]
+- !private ["Ps11CVarArgType", "NSURL"]
+- !private ["Ps11CVarArgType", "NSURLConnection"]
+- ["Ps11CVarArgType", "delegate"]
+- !private ["Ps11CVarArgType", "dispatch_async"]
+- !private ["Ps11CVarArgType", "dispatch_get_main_queue"]
+- ["Ps11CVarArgType", "getData"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "length"]
+- !private ["Ps11CVarArgType", "mainBundle"]
+- !private ["Ps11CVarArgType", "mainQueue"]
+- !private ["Ps11CVarArgType", "pathForResource"]
+- !private ["Ps11CVarArgType", "sendAsynchronousRequest"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "NSBundle"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableURLRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "NSOperationQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURLConnection"]
+- ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_async"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_get_main_queue"]
+- ["Ps28CustomDebugStringConvertible", "getData"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "length"]
+- !private ["Ps28CustomDebugStringConvertible", "mainBundle"]
+- !private ["Ps28CustomDebugStringConvertible", "mainQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "pathForResource"]
+- !private ["Ps28CustomDebugStringConvertible", "sendAsynchronousRequest"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "NSBundle"]
+- !private ["Ps23CustomStringConvertible", "NSMutableURLRequest"]
+- !private ["Ps23CustomStringConvertible", "NSOperationQueue"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
+- !private ["Ps23CustomStringConvertible", "NSURLConnection"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "dispatch_async"]
+- !private ["Ps23CustomStringConvertible", "dispatch_get_main_queue"]
+- ["Ps23CustomStringConvertible", "getData"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "length"]
+- !private ["Ps23CustomStringConvertible", "mainBundle"]
+- !private ["Ps23CustomStringConvertible", "mainQueue"]
+- !private ["Ps23CustomStringConvertible", "pathForResource"]
+- !private ["Ps23CustomStringConvertible", "sendAsynchronousRequest"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSBundle"]
+- !private ["Ps9Equatable", "NSMutableURLRequest"]
+- !private ["Ps9Equatable", "NSOperationQueue"]
+- !private ["Ps9Equatable", "NSURL"]
+- !private ["Ps9Equatable", "NSURLConnection"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "dispatch_async"]
+- !private ["Ps9Equatable", "dispatch_get_main_queue"]
+- ["Ps9Equatable", "getData"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "length"]
+- !private ["Ps9Equatable", "mainBundle"]
+- !private ["Ps9Equatable", "mainQueue"]
+- !private ["Ps9Equatable", "pathForResource"]
+- !private ["Ps9Equatable", "sendAsynchronousRequest"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "NSBundle"]
+- !private ["Ps8Hashable", "NSMutableURLRequest"]
+- !private ["Ps8Hashable", "NSOperationQueue"]
+- !private ["Ps8Hashable", "NSURL"]
+- !private ["Ps8Hashable", "NSURLConnection"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "dispatch_async"]
+- !private ["Ps8Hashable", "dispatch_get_main_queue"]
+- ["Ps8Hashable", "getData"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "length"]
+- !private ["Ps8Hashable", "mainBundle"]
+- !private ["Ps8Hashable", "mainQueue"]
+- !private ["Ps8Hashable", "pathForResource"]
+- !private ["Ps8Hashable", "sendAsynchronousRequest"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["CSo8NSBundle", "mainBundle"]
+- !private ["CSo8NSBundle", "pathForResource"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "length"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "length"]
+- !private ["CSo6NSData", "length"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "length"]
+- !private ["CSo19NSMutableURLRequest", "init"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "NSBundle"]
+- !private ["CSo8NSObject", "NSData"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSMutableURLRequest"]
+- !private ["CSo8NSObject", "NSOperationQueue"]
+- !private ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "NSURLConnection"]
+- !private ["CSo8NSObject", "NSURLResponse"]
+- ["CSo8NSObject", "RMConnectionDelegate"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "dispatch_async"]
+- !private ["CSo8NSObject", "dispatch_get_main_queue"]
+- ["CSo8NSObject", "getData"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "length"]
+- !private ["CSo8NSObject", "mainBundle"]
+- !private ["CSo8NSObject", "mainQueue"]
+- !private ["CSo8NSObject", "pathForResource"]
+- !private ["CSo8NSObject", "sendAsynchronousRequest"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "NSBundle"]
+- !private ["PSo16NSObjectProtocol", "NSMutableURLRequest"]
+- !private ["PSo16NSObjectProtocol", "NSOperationQueue"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "NSURLConnection"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "dispatch_async"]
+- !private ["PSo16NSObjectProtocol", "dispatch_get_main_queue"]
+- ["PSo16NSObjectProtocol", "getData"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- !private ["PSo16NSObjectProtocol", "mainBundle"]
+- !private ["PSo16NSObjectProtocol", "mainQueue"]
+- !private ["PSo16NSObjectProtocol", "pathForResource"]
+- !private ["PSo16NSObjectProtocol", "sendAsynchronousRequest"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo16NSOperationQueue", "mainQueue"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "length"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo15NSURLConnection", "sendAsynchronousRequest"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["Sq", "deinit"]
+- ["C8Find_Kit12RMConnection", "Int"]
+- !private ["C8Find_Kit12RMConnection", "NSBundle"]
+- !private ["C8Find_Kit12RMConnection", "NSData"]
+- !private ["C8Find_Kit12RMConnection", "NSError"]
+- !private ["C8Find_Kit12RMConnection", "NSMutableURLRequest"]
+- !private ["C8Find_Kit12RMConnection", "NSOperationQueue"]
+- !private ["C8Find_Kit12RMConnection", "NSURL"]
+- !private ["C8Find_Kit12RMConnection", "NSURLConnection"]
+- !private ["C8Find_Kit12RMConnection", "NSURLResponse"]
+- ["C8Find_Kit12RMConnection", "RMConnectionDelegate"]
+- !private ["C8Find_Kit12RMConnection", "String"]
+- ["C8Find_Kit12RMConnection", "deinit"]
+- ["C8Find_Kit12RMConnection", "delegate"]
+- !private ["C8Find_Kit12RMConnection", "dispatch_async"]
+- !private ["C8Find_Kit12RMConnection", "dispatch_get_main_queue"]
+- ["C8Find_Kit12RMConnection", "getData"]
+- ["C8Find_Kit12RMConnection", "init"]
+- ["P8Find_Kit20RMConnectionDelegate", "NSData"]
+- ["P8Find_Kit20RMConnectionDelegate", "getDataFin"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "CSo8NSBundle"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSData"
+- !private "PSo16NSMutableCopying"
+- !private "CSo19NSMutableURLRequest"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo16NSOperationQueue"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSURL"
+- !private "CSo15NSURLConnection"
+- !private "CSo12NSURLRequest"
+- !private "Sq"
+- "C8Find_Kit12RMConnection"
+- "P8Find_Kit20RMConnectionDelegate"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+interface-hash: "fc3524d9fb3db0ebbf1c22af35deed51"

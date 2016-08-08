@@ -1,0 +1,140 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MKEmbedMainControllerSegue"
+provides-nominal:
+- "C11SafetyDrive26MKEmbedMainControllerSegue"
+provides-member:
+- ["C11SafetyDrive26MKEmbedMainControllerSegue", ""]
+provides-dynamic-lookup:
+- "perform"
+depends-top-level:
+- !private "MKSideDrawerViewController"
+- "UIStoryboardSegue"
+- !private "StringLiteralType"
+- !private "assertionFailure"
+- "MKEmbedMainControllerSegue"
+depends-member:
+- !private ["Ps9AnyObject", "assertionFailure"]
+- !private ["Ps9AnyObject", "destinationViewController"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "mainViewController"]
+- ["Ps9AnyObject", "perform"]
+- !private ["Ps9AnyObject", "sourceViewController"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "assertionFailure"]
+- !private ["Ps11CVarArgType", "destinationViewController"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "mainViewController"]
+- ["Ps11CVarArgType", "perform"]
+- !private ["Ps11CVarArgType", "sourceViewController"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "assertionFailure"]
+- !private ["Ps28CustomDebugStringConvertible", "destinationViewController"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "mainViewController"]
+- ["Ps28CustomDebugStringConvertible", "perform"]
+- !private ["Ps28CustomDebugStringConvertible", "sourceViewController"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "assertionFailure"]
+- !private ["Ps23CustomStringConvertible", "destinationViewController"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "mainViewController"]
+- ["Ps23CustomStringConvertible", "perform"]
+- !private ["Ps23CustomStringConvertible", "sourceViewController"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "assertionFailure"]
+- !private ["Ps9Equatable", "destinationViewController"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "mainViewController"]
+- ["Ps9Equatable", "perform"]
+- !private ["Ps9Equatable", "sourceViewController"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "assertionFailure"]
+- !private ["Ps8Hashable", "destinationViewController"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "mainViewController"]
+- ["Ps8Hashable", "perform"]
+- !private ["Ps8Hashable", "sourceViewController"]
+- ["Ps8Hashable", ""]
+- !private ["C11SafetyDrive26MKEmbedMainControllerSegue", "MKSideDrawerViewController"]
+- !private ["C11SafetyDrive26MKEmbedMainControllerSegue", "assertionFailure"]
+- ["C11SafetyDrive26MKEmbedMainControllerSegue", "deinit"]
+- !private ["C11SafetyDrive26MKEmbedMainControllerSegue", "destinationViewController"]
+- ["C11SafetyDrive26MKEmbedMainControllerSegue", "init"]
+- ["C11SafetyDrive26MKEmbedMainControllerSegue", "perform"]
+- !private ["C11SafetyDrive26MKEmbedMainControllerSegue", "sourceViewController"]
+- !private ["C11SafetyDrive26MKSideDrawerViewController", "mainViewController"]
+- !private ["PSo8NSCoding", "mainViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "mainViewController"]
+- !private ["CSo8NSObject", "MKSideDrawerViewController"]
+- !private ["CSo8NSObject", "assertionFailure"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "mainViewController"]
+- ["CSo8NSObject", "perform"]
+- !private ["CSo8NSObject", "sourceViewController"]
+- !private ["PSo16NSObjectProtocol", "assertionFailure"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "mainViewController"]
+- ["PSo16NSObjectProtocol", "perform"]
+- !private ["PSo16NSObjectProtocol", "sourceViewController"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["PSo21UIAppearanceContainer", "mainViewController"]
+- !private ["PSo18UIContentContainer", "mainViewController"]
+- !private ["PSo18UIFocusEnvironment", "mainViewController"]
+- !private ["PSo27UIGestureRecognizerDelegate", "mainViewController"]
+- !private ["CSo11UIResponder", "mainViewController"]
+- !private ["PSo16UIStateRestoring", "mainViewController"]
+- !private ["CSo17UIStoryboardSegue", "MKSideDrawerViewController"]
+- !private ["CSo17UIStoryboardSegue", "assertionFailure"]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- ["CSo17UIStoryboardSegue", "init"]
+- ["CSo17UIStoryboardSegue", "perform"]
+- !private ["CSo17UIStoryboardSegue", "sourceViewController"]
+- ["CSo17UIStoryboardSegue", ""]
+- !private ["PSo18UITraitEnvironment", "mainViewController"]
+- !private ["CSo16UIViewController", "deinit"]
+- !private ["CSo16UIViewController", "mainViewController"]
+- ["Ps12_Reflectable", "Some"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C11SafetyDrive26MKEmbedMainControllerSegue"
+- !private "C11SafetyDrive26MKSideDrawerViewController"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Vs12StaticString"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- "CSo17UIStoryboardSegue"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo16UIViewController"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "f3f3e181090ee5f2d46d5ebc1b55a9a6"

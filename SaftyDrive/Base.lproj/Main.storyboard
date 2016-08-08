@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LEA-lH-YU9">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="qxn-qA-SFH">
+            <objects>
+                <viewController id="DD1-9k-Y3h" customClass="MainViewController" customModule="Material_UI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fGh-LF-Jc7"/>
+                        <viewControllerLayoutGuide type="bottom" id="DZq-Q2-kpT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RSw-ZE-nd3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="f0D-gI-LSm"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="THG-VS-iVz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="511"/>
+        </scene>
+        <!--Side Drawer View Controller-->
+        <scene sceneID="hQi-pH-BqA">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="LEA-lH-YU9" customClass="MKSideDrawerViewController" customModule="Material_UI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GqA-vK-TBb"/>
+                        <viewControllerLayoutGuide type="bottom" id="YW2-ve-sRe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xbi-Ne-vvo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="mainSegueIdentifier" value="main"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="drawerSegueIdentifier" value="drawer"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="drawerWidth">
+                            <real key="value" value="250"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="bMr-KB-VRN" kind="custom" identifier="main" customClass="MKEmbedMainControllerSegue" customModule="Material_UI" id="kxz-Qa-VK0"/>
+                        <segue destination="Hru-Cn-6FU" kind="custom" identifier="drawer" customClass="MKEmbedDrawerControllerSegue" customModule="Material_UI" id="2XC-1U-xyw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OLZ-e2-1Ac" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-823" y="511"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gTR-HE-sR9">
+            <objects>
+                <navigationController id="bMr-KB-VRN" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PoK-cs-Kvd" customClass="MKNavigationBar" customModule="Material_UI" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="elevation">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                <color key="value" red="1" green="0.79607844350000001" blue="0.015686275440000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="darkColor">
+                                <color key="value" red="1" green="0.62745100259999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="DD1-9k-Y3h" kind="relationship" relationship="rootViewController" id="J2h-qq-RiN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vwF-tw-GOG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-395" y="511"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6ty-rB-UgH">
+            <objects>
+                <viewController id="Hru-Cn-6FU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BwE-LO-4SM"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZcV-4L-J44"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CIy-Ki-iEM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jtR-Kx-Gwg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-823" y="1219"/>
+        </scene>
+    </scenes>
+</document>

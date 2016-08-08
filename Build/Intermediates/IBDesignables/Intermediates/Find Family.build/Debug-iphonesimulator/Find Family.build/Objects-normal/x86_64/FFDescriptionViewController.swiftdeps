@@ -1,0 +1,185 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FFDescriptionViewController"
+provides-nominal:
+- "C11Find_Family27FFDescriptionViewController"
+provides-member:
+- ["C11Find_Family27FFDescriptionViewController", ""]
+provides-dynamic-lookup:
+- "batteryIndicator"
+- "profileIcon"
+depends-top-level:
+- "FFDescriptionViewController"
+- "UIView"
+- "RMNavigationController"
+- "UIImage"
+depends-member:
+- ["Ps9AnyObject", "UIImage"]
+- ["Ps9AnyObject", "UIView"]
+- ["Ps9AnyObject", "batteryIndicator"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "profileIcon"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "UIImage"]
+- ["Ps11CVarArgType", "UIView"]
+- ["Ps11CVarArgType", "batteryIndicator"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "profileIcon"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "UIImage"]
+- ["Ps28CustomDebugStringConvertible", "UIView"]
+- ["Ps28CustomDebugStringConvertible", "batteryIndicator"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "profileIcon"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "UIImage"]
+- ["Ps23CustomStringConvertible", "UIView"]
+- ["Ps23CustomStringConvertible", "batteryIndicator"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "profileIcon"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "UIImage"]
+- ["Ps9Equatable", "UIView"]
+- ["Ps9Equatable", "batteryIndicator"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "profileIcon"]
+- ["Ps9Equatable", ""]
+- ["C11Find_Family27FFDescriptionViewController", "UIImage"]
+- ["C11Find_Family27FFDescriptionViewController", "UIView"]
+- ["C11Find_Family27FFDescriptionViewController", "batteryIndicator"]
+- ["C11Find_Family27FFDescriptionViewController", "deinit"]
+- ["C11Find_Family27FFDescriptionViewController", "init"]
+- ["C11Find_Family27FFDescriptionViewController", "profileIcon"]
+- ["Ps8Hashable", "UIImage"]
+- ["Ps8Hashable", "UIView"]
+- ["Ps8Hashable", "batteryIndicator"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "profileIcon"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "UIImage"]
+- ["PSo8NSCoding", "UIView"]
+- ["PSo8NSCoding", "batteryIndicator"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "profileIcon"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "UIImage"]
+- ["PSo26NSExtensionRequestHandling", "UIView"]
+- ["PSo26NSExtensionRequestHandling", "batteryIndicator"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "profileIcon"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "batteryIndicator"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "profileIcon"]
+- ["PSo16NSObjectProtocol", "UIImage"]
+- ["PSo16NSObjectProtocol", "UIView"]
+- ["PSo16NSObjectProtocol", "batteryIndicator"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "profileIcon"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["C11Find_Family22RMNavigationController", "UIImage"]
+- ["C11Find_Family22RMNavigationController", "UIView"]
+- ["C11Find_Family22RMNavigationController", "batteryIndicator"]
+- ["C11Find_Family22RMNavigationController", "init"]
+- ["C11Find_Family22RMNavigationController", "profileIcon"]
+- ["C11Find_Family22RMNavigationController", ""]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo21UIAppearanceContainer", "UIImage"]
+- ["PSo21UIAppearanceContainer", "UIView"]
+- ["PSo21UIAppearanceContainer", "batteryIndicator"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "profileIcon"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "UIImage"]
+- ["PSo18UIContentContainer", "UIView"]
+- ["PSo18UIContentContainer", "batteryIndicator"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "profileIcon"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo18UIFocusEnvironment", "UIImage"]
+- ["PSo18UIFocusEnvironment", "UIView"]
+- ["PSo18UIFocusEnvironment", "batteryIndicator"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "profileIcon"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "UIImage"]
+- ["PSo27UIGestureRecognizerDelegate", "UIView"]
+- ["PSo27UIGestureRecognizerDelegate", "batteryIndicator"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "profileIcon"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo7UIImage", "init"]
+- ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "batteryIndicator"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "profileIcon"]
+- ["PSo16UIStateRestoring", "UIImage"]
+- ["PSo16UIStateRestoring", "UIView"]
+- ["PSo16UIStateRestoring", "batteryIndicator"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "profileIcon"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "UIImage"]
+- ["PSo18UITraitEnvironment", "UIView"]
+- ["PSo18UITraitEnvironment", "batteryIndicator"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "profileIcon"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "init"]
+- ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "UIView"]
+- ["CSo16UIViewController", "batteryIndicator"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "profileIcon"]
+- ["Ps24_ImageLiteralConvertible", "init"]
+- ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "C11Find_Family27FFDescriptionViewController"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "C11Find_Family22RMNavigationController"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo7UIImage"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "CSo16UIViewController"
+- "Ps24_ImageLiteralConvertible"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "e2e19edcb7b7e10cef191d9e3c4f5f4b"

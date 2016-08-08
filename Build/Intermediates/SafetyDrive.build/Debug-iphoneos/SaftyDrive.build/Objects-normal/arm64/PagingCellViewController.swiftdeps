@@ -1,0 +1,214 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PagingViewControllerDelegate"
+- "PagingCellViewController"
+provides-nominal:
+- "P10SaftyDrive28PagingViewControllerDelegate"
+- "C10SaftyDrive24PagingCellViewController"
+provides-member:
+- ["P10SaftyDrive28PagingViewControllerDelegate", ""]
+- ["C10SaftyDrive24PagingCellViewController", ""]
+provides-dynamic-lookup:
+- "sendMessageToRoot"
+- "setDataObject"
+depends-top-level:
+- "AnyObject"
+- "PagingCellViewController"
+- "PagingViewControllerDelegate"
+- "UIViewController"
+- "String"
+- "Int"
+depends-member:
+- ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "getIndex"]
+- ["Ps9AnyObject", "index"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "sendMessageToRoot"]
+- ["Ps9AnyObject", "setDataObject"]
+- ["Ps9AnyObject", "setIndex"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "delegate"]
+- ["Ps11CVarArgType", "getIndex"]
+- ["Ps11CVarArgType", "index"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "sendMessageToRoot"]
+- ["Ps11CVarArgType", "setDataObject"]
+- ["Ps11CVarArgType", "setIndex"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "getIndex"]
+- ["Ps28CustomDebugStringConvertible", "index"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "sendMessageToRoot"]
+- ["Ps28CustomDebugStringConvertible", "setDataObject"]
+- ["Ps28CustomDebugStringConvertible", "setIndex"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "getIndex"]
+- ["Ps23CustomStringConvertible", "index"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "sendMessageToRoot"]
+- ["Ps23CustomStringConvertible", "setDataObject"]
+- ["Ps23CustomStringConvertible", "setIndex"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "getIndex"]
+- ["Ps9Equatable", "index"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "sendMessageToRoot"]
+- ["Ps9Equatable", "setDataObject"]
+- ["Ps9Equatable", "setIndex"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "getIndex"]
+- ["Ps8Hashable", "index"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "sendMessageToRoot"]
+- ["Ps8Hashable", "setDataObject"]
+- ["Ps8Hashable", "setIndex"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "getIndex"]
+- ["PSo8NSCoding", "index"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "sendMessageToRoot"]
+- ["PSo8NSCoding", "setDataObject"]
+- ["PSo8NSCoding", "setIndex"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "delegate"]
+- ["PSo26NSExtensionRequestHandling", "getIndex"]
+- ["PSo26NSExtensionRequestHandling", "index"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "sendMessageToRoot"]
+- ["PSo26NSExtensionRequestHandling", "setDataObject"]
+- ["PSo26NSExtensionRequestHandling", "setIndex"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "PagingViewControllerDelegate"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "getIndex"]
+- ["CSo8NSObject", "index"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "sendMessageToRoot"]
+- ["CSo8NSObject", "setDataObject"]
+- ["CSo8NSObject", "setIndex"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "getIndex"]
+- ["PSo16NSObjectProtocol", "index"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "sendMessageToRoot"]
+- ["PSo16NSObjectProtocol", "setDataObject"]
+- ["PSo16NSObjectProtocol", "setIndex"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C10SaftyDrive24PagingCellViewController", "AnyObject"]
+- ["C10SaftyDrive24PagingCellViewController", "Int"]
+- ["C10SaftyDrive24PagingCellViewController", "PagingViewControllerDelegate"]
+- ["C10SaftyDrive24PagingCellViewController", "String"]
+- ["C10SaftyDrive24PagingCellViewController", "deinit"]
+- ["C10SaftyDrive24PagingCellViewController", "delegate"]
+- ["C10SaftyDrive24PagingCellViewController", "getIndex"]
+- !private ["C10SaftyDrive24PagingCellViewController", "index"]
+- ["C10SaftyDrive24PagingCellViewController", "init"]
+- ["C10SaftyDrive24PagingCellViewController", "sendMessageToRoot"]
+- ["C10SaftyDrive24PagingCellViewController", "setDataObject"]
+- ["C10SaftyDrive24PagingCellViewController", "setIndex"]
+- ["P10SaftyDrive28PagingViewControllerDelegate", "String"]
+- ["P10SaftyDrive28PagingViewControllerDelegate", "receiveMessage"]
+- ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "getIndex"]
+- ["PSo21UIAppearanceContainer", "index"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "sendMessageToRoot"]
+- ["PSo21UIAppearanceContainer", "setDataObject"]
+- ["PSo21UIAppearanceContainer", "setIndex"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "delegate"]
+- ["PSo18UIContentContainer", "getIndex"]
+- ["PSo18UIContentContainer", "index"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "sendMessageToRoot"]
+- ["PSo18UIContentContainer", "setDataObject"]
+- ["PSo18UIContentContainer", "setIndex"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "getIndex"]
+- ["PSo18UIFocusEnvironment", "index"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "sendMessageToRoot"]
+- ["PSo18UIFocusEnvironment", "setDataObject"]
+- ["PSo18UIFocusEnvironment", "setIndex"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "PagingViewControllerDelegate"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "getIndex"]
+- ["CSo11UIResponder", "index"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "sendMessageToRoot"]
+- ["CSo11UIResponder", "setDataObject"]
+- ["CSo11UIResponder", "setIndex"]
+- ["PSo16UIStateRestoring", "delegate"]
+- ["PSo16UIStateRestoring", "getIndex"]
+- ["PSo16UIStateRestoring", "index"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "sendMessageToRoot"]
+- ["PSo16UIStateRestoring", "setDataObject"]
+- ["PSo16UIStateRestoring", "setIndex"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "getIndex"]
+- ["PSo18UITraitEnvironment", "index"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "sendMessageToRoot"]
+- ["PSo18UITraitEnvironment", "setDataObject"]
+- ["PSo18UITraitEnvironment", "setIndex"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "PagingViewControllerDelegate"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "delegate"]
+- ["CSo16UIViewController", "getIndex"]
+- ["CSo16UIViewController", "index"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "sendMessageToRoot"]
+- ["CSo16UIViewController", "setDataObject"]
+- ["CSo16UIViewController", "setIndex"]
+- ["CSo16UIViewController", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "SQ"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C10SaftyDrive24PagingCellViewController"
+- "P10SaftyDrive28PagingViewControllerDelegate"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "97f6dc51ec9a1202181df8e062d25828"
